@@ -10,4 +10,4 @@ def change():
     print ("Pesos:")
     print(int(money - expense))
     print ("Centavos:")
-    print(str(vuelto).split('.')[1])
+    print(str(money-expense).split('.')[1])
