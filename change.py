@@ -1,7 +1,13 @@
 def change():
     expense = 23.75
     money = 100
-    vuelto = money - expense
-    print('Vuelto')
-    print (f"Pesos: {vuelto}")
-    print (f"Centavos: .{str(vuelto).split('.')[1]}")
+    print("Ingresar gasto:")
+    print(expense))
+    print("Dinero recibido")
+    print(money)
+    print("")
+    print("Vuelto")
+    print ("Pesos:")
+    print(int(money - expense))
+    print ("Centavos:")
+    print({str(vuelto).split('.')[1])
