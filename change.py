@@ -7,6 +7,7 @@ def change():
     print(money)
     print("")
     print("Vuelto")
+    print("")
     print ("Pesos:")
     print(int(money - expense))
     print ("Centavos:")
